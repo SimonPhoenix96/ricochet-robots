@@ -1,0 +1,63 @@
+<resources>
+    <!-- Dominik Erbacher | 5016085 -->
+    <string name="app_name">Ricochet Robots</string>
+    <string name="tut">Tutorial</string>
+    <string name="sp">Singleplayer</string>
+    <string name="mp">Multiplayer</string>
+    <string name="off"> Off</string>
+    <string name="currentPlayers"><u>Current Players:</u></string>
+    <string name="robotAusgewaehlt"> Robot ausgewählt!</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settingsWarning"><b> Achtung!</b>\nRoboteranzahl &amp; Skins werden erst im nächsten Spiel übernommen!</string>
+    <string name="aboutus">About us</string>
+    <string name="aboutustxt"> Application developed by \nDominik, Jakob, Justin &amp; Mike @FHWS\nServer/Database: Firebase Firestore\n\nWe hope you enjoy this little game.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="ricochet">RICOCHET</string>
+    <string name="robots">ROBOTS</string>
+    <string name="register"> <u>Register Now</u> </string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="or">or</string>
+    <string name="guest"> <u>Continue as Guest!</u></string>
+    <string name="profilepic">profilepic</string>
+    <string name="profil">Online-Profil</string>
+    <string name="passwordicon">passwordicon</string>
+    <string name="error">Username und/oder Passwort inkorrekt!!</string>
+    <string name="noerror">Eingabe korrekt. Sie werden weitergeleitet...</string>
+    <string name="registerTitle">Register</string>
+    <string name="createAccount">Create Account</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="tutorialtxt1">Zu Beginn des Spiels werden ein Zielobjekt sowie 4/5 Roboter zufällig auf dem Spielbrett platziert. Die Farbe des Zielobjekts gibt an, welcher
+    Roboter dorthin befördert werden soll. \n\nRoboter können sich nur vertikal &amp; horizontal bewegen, nicht diagonal. Ein Roboter bewegt sich solange in eine Richtung bis ein Hindernis vor ihm auftaucht. \n\nVersuchen Sie den Roboter, mit möglichst wenig Zügen, zum gleichfarbigen Ziel zu bringen. Sie können die anderen Roboter als Hilfestellung benutzen!\n\nWischgeste nach links: mehr Infos.\nWischgeste nach rechts: zurück.</string>
+    <string name="createGame">Create a new Game</string>
+    <string name="joinGame">Join an existing Game</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="mpSettings">Multiplayer Settings</string>
+    <string name="showProfile">Show Profile</string>
+    <string name="placeholder">PLACEHOLDER123</string>
+    <string name="anzahlRoboter">Anzahl Roboter</string>
+    <string name="activateTimer">Timer aktivieren</string>
+    <string name="timer">Timer:</string>
+    <string name="amountOfmoves">Spielzüge:</string>
+    <string name="moves"> 0 </string>
+    <string name="timePlayed">0</string>
+    <string name="resetButton">Reset</string>
+    <string name="leftButtonMP">left</string>
+    <string name="newGame">  New Game  </string>
+    <string name="rightButtonMP">right</string>
+    <string name="vortex"><u>Achtung! Vortex-Ziel erkannt!</u></string>
+    <string name="vortexWarning">"Es wurde ein seltener <u>Vortex-Strudel</u> entdeckt!\nDas Spiel ist gewonnen, sobald einer der Roboter (außer der schwarze Hilfsroboter) den Strudel erreicht!</string>
+    <string name="tutorial_control">Sie können den Roboter durch zwei verschiedene Methoden bewegen:\n\n<b>1. Click &amp; Click</b> (Standard)\nTippen Sie auf einen Roboter, um diesen auszuwählen. Wählen Sie anschließend ein vertikal/horizontal passendes Feld, um den Roboter in diese Richtung zu bewegen. Sollte es sich bei dem zweiten Feld um einen anderen Roboter handeln, wird dieser ausgewählt.\n\n<b>2. Swipe</b>\nTippen Sie auf einen Roboter und wischen Sie direkt im Anschluss (ohne den Finger zu heben) in die gewünschte Richtung. \n\nDen Steuerungsmodus können Sie in den Einstellungen ändern. \n \n Wir wünschen viel Spaß!\n\nWischgeste nach links: zum Hauptmenü.\nWischgeste nach rechts: zurück zum Tutorial.</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>
