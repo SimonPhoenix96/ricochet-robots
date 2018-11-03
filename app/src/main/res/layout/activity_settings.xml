@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashes"
+    tools:context=".SettingsActivity">
+    <!-- Dominik Erbacher | 5016085 -->
+
+    <Button
+        android:id="@+id/secretButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:background="@drawable/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsWarning"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/settingsWarning"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boardLayout" />
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/settings"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        android:visibility="visible"
+        app:fontFamily="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings">
+
+        <TextView
+            android:id="@+id/activateTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:text="@string/activateTimer"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <ToggleButton
+            android:id="@+id/timerToggle"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="Off"
+            android:textOn="On"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="177dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <ToggleButton
+            android:id="@+id/amountRobots"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="5"
+            android:textOn="4"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:text="@string/anzahlRoboter"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <ToggleButton
+            android:id="@+id/movementToggle"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="Swipe"
+            android:textOn="Click &amp; Click"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Steuerung"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="249dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/robotLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3">
+
+        <TextView
+            android:id="@+id/skinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:text="Robot skin"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <ToggleButton
+            android:id="@+id/robotSkin"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="Default"
+            android:textOn="Penguin"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="177dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/boardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/targetLayout">
+
+        <ToggleButton
+            android:id="@+id/boardSkin"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="Disabled"
+            android:textOn="Hell"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/boardSkinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:layout_marginLeft="10dp"
+            android:text="Board skin"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/targetLayout"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/robotLayout">
+
+        <ToggleButton
+            android:id="@+id/targetSkin"
+            android:layout_width="120dp"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/customrecttest"
+            android:textOff="Default"
+            android:textOn="Saturn"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="249dp" />
+
+        <TextView
+            android:id="@+id/targetSkinText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Target skin"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="249dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
