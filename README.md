@@ -1,2 +1,2 @@
 # Ricochet-Robots
-A simple Game me and a couple of others made for school
+A simple game me and a couple of friends made for school
