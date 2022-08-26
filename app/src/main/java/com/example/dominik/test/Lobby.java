@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-//Code by Justin Diaz | 5115108
+//Code by Justin Diaz | 5115108 
 @IgnoreExtraProperties
 public class Lobby {
 
