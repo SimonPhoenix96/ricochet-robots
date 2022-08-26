@@ -214,3 +214,4 @@ public class InviteListActivity extends AppCompatActivity {
         Button button;
     }
 }
+
