@@ -30,7 +30,7 @@ import org.apache.commons.lang3.SerializationUtils;
 
 import java.util.concurrent.TimeUnit;
 
-// Code by Dominic Erbacher | Mike Hein | Justin Diaz
+// Code by Dominic Erbacher | Mike Hein | Justin Diaz 
 
 public class LocalMultiplayerActivity extends AppCompatActivity {
 
