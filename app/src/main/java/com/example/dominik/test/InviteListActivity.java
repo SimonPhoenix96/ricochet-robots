@@ -27,7 +27,7 @@ package com.example.dominik.test;
         import java.util.ArrayList;
         import java.util.List;
 
-//Code by Justin Diaz | 5115108 
+//Code by Justin Diaz | 5115108   
 public class InviteListActivity extends AppCompatActivity {
 
     FirebaseDatabase database;

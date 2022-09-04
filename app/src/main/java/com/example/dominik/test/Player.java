@@ -2,7 +2,7 @@ package com.example.dominik.test;
 
 import java.util.ArrayList;
 
-//Code by Justin Diaz | 5115108
+//Code by Justin Diaz | 5115108   
 public class Player {
 
     public String USERNAME;
