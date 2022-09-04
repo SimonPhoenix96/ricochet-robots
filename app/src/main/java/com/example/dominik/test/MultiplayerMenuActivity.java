@@ -34,7 +34,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-//Code by Dominik Erbacher (GUI) | 5016085 && Justin Diaz | 5115108
+//Code by Dominik Erbacher (GUI) | 5016085 && Justin Diaz | 5115108  
 public class MultiplayerMenuActivity extends AppCompatActivity {
 
     FirebaseDatabase database;

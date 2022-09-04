@@ -26,7 +26,7 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.Timer;
 import java.util.TimerTask;
 
-//GUI-Code by Dominik Erbacher | 5016085 && Logic by  Justin Diaz | 5115108
+//GUI-Code by Dominik Erbacher | 5016085 && Logic by Justin Diaz | 5115108  
 public class CreateGameActivity extends AppCompatActivity {
 
     String username;

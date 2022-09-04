@@ -47,7 +47,7 @@ import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-// Code by Mike Hein | Justin Diaz | [Code aus SingleplayerActivity (Dominik Erbacher) kopiert]
+// Code by Mike Hein & Justin Diaz | Code aus SingleplayerActivity (Dominik Erbacher)  
 
 public class MultiplayerActivity extends AppCompatActivity implements Chronometer.OnChronometerTickListener {
 
